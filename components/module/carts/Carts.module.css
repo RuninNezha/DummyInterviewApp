@@ -1,0 +1,17 @@
+.module {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(154, 167, 200);
+  overflow: scroll;
+  overflow-x: hidden;
+
+  scrollbar-color: rgb(132, 132, 132);
+  max-height: 35rem;
+  padding: 1rem;
+}
+.repair {
+  display: grid;
+  gap: 0 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}

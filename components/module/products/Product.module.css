@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 1rem;
+  border: 0.2rem solid rgb(208, 208, 208);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.data {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  gap: 1rem;
+}
+.item img {
+  margin-left: 2rem;
+  height: 8rem;
+  padding: 1rem;
+}
